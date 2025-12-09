@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/shivcc/x-digit-randomizer/sw.js', { scope: '/shivcc/x-digit-randomizer/' })})}
