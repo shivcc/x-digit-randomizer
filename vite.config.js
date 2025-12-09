@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/shivcc/x-digit-randomizer",
+  base: '/shivcc/x-digit-randomizer/',
   plugins: [react(), tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
